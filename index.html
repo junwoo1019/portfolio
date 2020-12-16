@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>이준우 포트폴리오</title>
+    <script src="js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent;
+    if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i)
+    != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="gnb">
+            <ul class="mainmenu">
+                <li><a onclick="fnMove('0')"><img src="img/logo.png"></a></li>
+                <li><a onclick="fnMove('1')"><span>About me</span></a></li>
+                <li><a onclick="fnMove('2')"><span>Editorial</span></a></li>
+                <li><a onclick="fnMove('3')"><span>Advertisement</span></a></li>
+                <li><a onclick="fnMove('4')"><span>CI/BI</span></a></li>
+                <li><a onclick="fnMove('5')"><span>Package</span></a></li>
+
+            </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!--동영상 부문-->
+      <div class="undervideo" id=anchor0>
+        <video autoplay muted loop id="myvideo">
+          <source src="mov/mov.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <!--프로필 부문-->
+      <div class="profile" id="anchor1">
+        <div class="profile_wrap">
+          <div class="profile_00" data-aos="fade-down" data-aos-duration="1300"><img src="img/00_00_sil.png" alt="sil"></div>
+          <div class="profile_01" data-aos="fade-up" data-aos-duration="1300"><img src="img/00_01_txt.png" alt="moto"></div>
+          <div class="profile_02" data-aos="fade-left" data-aos-duration="1300"><img src="img/00_02_txt.png" alt="information"></div>
+          <div class="profile_03" data-aos="fade-left" data-aos-duration="1300"><img src="img/00_03_txt.png" alt="education"></div>
+          <div class="profile_04" data-aos="fade-left" data-aos-duration="1300"><img src="img/00_04_txt.png" alt="certification"></div>
+          <div class="profile_05" data-aos="fade-left" data-aos-duration="1300"><img src="img/00_05_txt.png" alt="awards"></div>
+          <div class="profile_06" data-aos="fade-left" data-aos-duration="1300"><img src="img/00_06_txt.png" alt="skill"></div>
+        </div>
+      </div>
+
+      <!--편집디자인 부문-->
+      <div class="edit" id="anchor2">
+        <div class="edit_tit"><img src="img/01_01_tit.png" alt=""></div>
+        <div class="edit_01">
+          <div class="edit_txt_01" data-aos="fade-right" data-aos-duration="1300"><a href="#"><img src="img/01_01_txt.png" alt=""></a></div>
+          <div class="edit_img_01" data-aos="fade-left" data-aos-duration="1300"><a href="#"><img src="img/01_01_img.png" alt=""></a></div>
+        </div>
+        <div class="edit_02">
+          <div class="edit_img_02" data-aos="fade-left" data-aos-duration="1300"><a href="#"><img src="img/01_02_img.png" alt=""></a></div>
+          <div class="edit_txt_02" data-aos="fade-right" data-aos-duration="1300"><a href="#"><img src="img/01_02_txt.png" alt=""></a></div>
+          </div>
+        <div class="edit_03">
+          <div class="edit_txt_03" data-aos="fade-right" data-aos-duration="1300"><a href="#"><img src="img/01_03_txt.png" alt=""></a></div>
+          <div class="edit_img_03" data-aos="fade-left" data-aos-duration="1300"><a href="#"><img src="img/01_03_img.png" alt=""></a></div>
+        </div>
+      </div>
+
+      <!--광고디자인 부문-->
+      <div class="adv" id="anchor3">
+        <div class="adv_tit"><img src="img/02_01_tit.png" alt=""></div>
+        <div class="adv_01">
+          <div class="adv_img_01" data-aos="zoom-out-left" data-aos-duration="1300"><a href="#"><img src="img/02_01_img.png" alt=""></a></div>
+          <div class="adv_txt_01" data-aos="fade-left" data-aos-duration="1300"><a href="#"><img src="img/02_01_txt.png" alt=""></a></div>
+        </div>
+        <div class="adv_02">
+          <div class="adv_img_02" data-aos="zoom-out-right" data-aos-duration="1300"><a href="#"><img src="img/02_02_img.png" alt=""></a></div>
+          <div class="adv_txt_02" data-aos="fade-right" data-aos-duration="1300"><a href="#"><img src="img/02_02_txt.png" alt=""></a></div>
+        </div>
+      </div>
+
+      <!--브랜딩 부문-->
+      <div class="cibi" id="anchor4">
+        <div class="cibi_tit"><img src="img/03_01_tit.png" alt=""></div>
+        <div class="cibi_img" data-aos="zoom-in" data-aos-duration="1300">
+          <div class="cibi_img_01"><a href="img/lightbox1.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="Mapsi"><img src="img/03_01_img.png" alt=""></a></div>
+          <div class="cibi_img_02"><a href="img/lightbox2.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="Leon"><img src="img/03_02_img.png" alt=""></a></div>
+          <div class="cibi_img_03"><a href="img/lightbox3.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="2020"><img src="img/03_03_img.png" alt=""></a></div>
+          <div class="cibi_img_04"><a href="img/lightbox4.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="MMNT"><img src="img/03_04_img.png" alt=""></a></div>
+          <div class="cibi_img_05"><a href="img/lightbox5.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="Holo"><img src="img/03_05_img.png" alt=""></a></div>
+          <div class="cibi_img_06"><a href="img/lightbox6.png" data-lightbox="cibi_img_b" div class="wobble-hor-bottom" data-title="MMNT2"><img src="img/03_06_img.png" alt=""></a></div>
+        </div>
+      </div>
+
+      <!--패키지 부문-->
+      <div class="package" id="anchor5">
+        <div class="pack_tit"><img src="img/04_01_tit.png" alt=""></div>
+        <div class="pack">
+          <div class="pack_img" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1600"><a href="#"><img src="img/04_01_img.png" alt=""></a></div>
+          <div class="pack_txt" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1500"><a href="#"><img src="img/04_01_txt.png" alt=""></a></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer">
+        <div class="footer_logo"><img src="img/footer_logo.png" alt="footer"></div>
+        <div class="footer_txt">© 2020. LEEJUNWOO. All rights reserved. e-mail junwoo1019@gmail.com.</div>
+      </div>
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1000);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>
